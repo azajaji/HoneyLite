@@ -1,0 +1,14 @@
+First Step: We Installed and Configured Kali Linux Machine as an Attacker Machine for Testing Honey Pot
+Second Step: We installed and Configured Windows 10 to make it a honeypot host
+Third Step: We installed the python in the Honypot host
+Fourth Step: We insatlled the requrired packages of python to run our honypot such as "scapy" "watchdog" "schdule" "requests". We used pip command for that. For example "pip install scapy". However, there is a package called "netifaces" which required to download and install Microsoft C++ Build tools first". So before "pip install netifaces" we dowloand and install  Microsoft C++ Build tools from https://visualstudio.microsoft.com/visual-cpp-build-tools/.
+Fifth Step: We installed npcap.
+
+-------------- done
+
+Run the honeypot.
+Conduct the test.
+
+Don't forget to make network settings in Oracle VirtualBox that are Natnetwork and promiscuous mode on for VMs
+
+windows 10 (honeypot host): user id is Testuser and password is abc123
