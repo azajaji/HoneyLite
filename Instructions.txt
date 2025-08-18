@@ -11,4 +11,7 @@ Conduct the test.
 
 Don't forget to make network settings in Oracle VirtualBox that are Natnetwork and promiscuous mode on for VMs
 
+
 windows 10 (honeypot host): user id is Testuser and password is abc123
+
+We used python-3.12.2-amd64.exe
